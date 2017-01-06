@@ -1,0 +1,16 @@
+.git
+.gradle
+.project
+.settings
+.classpath
+gradlew
+gradlew.bat
+settings.gradle
+
+/bin/*
+/gradle/*
+/build/*
+
+#Test file
+Drafts
+INBOX

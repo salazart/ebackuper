@@ -1,0 +1,24 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+
+sourceSets {
+	main.java.srcDir "src/main/java"
+	main.resources.srcDir "src/main/resources"
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile group: 'dom4j', name: 'dom4j', version: '1.6.1'
+	compile group: 'javax.mail', name: 'mail', version: '1.4.7'
+	//compile group: 'javax.mail', name: 'mailapi', version: '1.4.3'
+	compile group: 'org.apache.poi', name: 'poi', version: '3.9'
+	compile group: 'org.apache.poi', name: 'poi-ooxml', version: '3.9'
+	compile group: 'org.apache.poi', name: 'poi-ooxml-schemas', version: '3.9'
+	compile group: 'org.apache.xmlbeans', name: 'xmlbeans', version: '2.3.0'
+	compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.5'
+	
+}
